@@ -23,8 +23,6 @@ class Distance {
     print("Distance is ${feet ?? 0} feet and ${inches ?? 0} inches");
   }
 }
-import 'Que1Class.dart';
-
 void main(){
   Distance distance = Distance();
   distance..setDist()..CheckDist()..display();
