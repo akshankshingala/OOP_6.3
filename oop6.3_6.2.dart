@@ -19,8 +19,6 @@ class Car{
     print("Animal Colour : $_colour");
   }
 }
-import 'Que2Class.dart';
-
 void main(){
   Car animals = Car();
   animals..setAnimalData()..getAnimalData();
